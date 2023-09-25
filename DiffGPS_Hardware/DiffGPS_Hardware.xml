@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Diff_GPS\DiffGPS_Hardware\DiffGPS_Hardware.kicad_sch</source>
-    <date>9/22/2023 4:53:39 PM</date>
-    <tool>Eeschema (6.0.6)</tool>
+    <source>/Users/vexas/Documents/GitHub/DiffGPSBreakout_Hardware/DiffGPS_Hardware/DiffGPS_Hardware.kicad_sch</source>
+    <date>2023 September 24, Sunday 19:15:57</date>
+    <tool>Eeschema 7.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -31,8 +31,30 @@
       <libsource lib="MCU_Module" part="Arduino_UNO_R3" description="Arduino UNO Microcontroller Module, release 3"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="DiffGPS_Hardware.kicad_sch"/>
+      <property name="ki_description" value="Arduino UNO Microcontroller Module, release 3"/>
+      <property name="ki_keywords" value="Arduino UNO R3 Microcontroller Module Atmel AVR USB"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>8d25df60-d146-4d5a-accb-d598124d647f</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DiffGPS_Hardware.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b20f4c03-d58d-4022-a669-6e009f8e9094</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DiffGPS_Hardware.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4cf4fca2-2aaf-45f4-8693-fb51e4a18a8d</tstamps>
     </comp>
     <comp ref="Conn1">
       <value>AndersonPP</value>
@@ -49,6 +71,8 @@
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="DiffGPS_Hardware.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>200e7c42-aae9-4a23-8217-2cdd8c6bdeef</tstamps>
     </comp>
@@ -58,6 +82,8 @@
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="DiffGPS_Hardware.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>cd2d8c19-f6b5-40d9-b52a-7f38f8984fea</tstamps>
     </comp>
@@ -67,6 +93,8 @@
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="DiffGPS_Hardware.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>3e2ee15d-c057-4d12-9baf-4df48aa97a48</tstamps>
     </comp>
@@ -76,6 +104,8 @@
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="DiffGPS_Hardware.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>2fd51f02-6491-461b-bd80-d2930e36342d</tstamps>
     </comp>
@@ -85,6 +115,8 @@
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="DiffGPS_Hardware.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>fdb94429-f8d6-4ec0-89ae-fc34adb74393</tstamps>
     </comp>
@@ -94,15 +126,30 @@
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="DiffGPS_Hardware.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>6e21bfb1-0a7e-4880-ba9f-28d94de978f1</tstamps>
     </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MRDT_Drill_Holes:4_40_Hole_Corner</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DiffGPS_Hardware.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c6de6454-85a1-4755-8c9f-a03611435788</tstamps>
+    </comp>
     <comp ref="R1">
-      <value>1k</value>
+      <value>3k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="DiffGPS_Hardware.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>c22d466e-ab92-47ed-83f1-75dee6bb8484</tstamps>
     </comp>
@@ -112,15 +159,19 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="DiffGPS_Hardware.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>c1b1fd41-c863-424d-8c1a-4a6eacfa4ca8</tstamps>
     </comp>
     <comp ref="R3">
-      <value>120</value>
+      <value>100</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="DiffGPS_Hardware.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4d23adcc-6d44-42a9-9d5c-fd708e52c01f</tstamps>
     </comp>
@@ -134,17 +185,33 @@
       <tstamps>2daf3e3f-b01e-4132-8e89-882f27453b20</tstamps>
     </comp>
     <comp ref="U2">
-      <value>TSR_1-2450</value>
-      <footprint>MRDT_Devices:TSR_1-2433</footprint>
-      <datasheet>http://www.tracopower.com/products/tsr1.pdf</datasheet>
-      <libsource lib="Regulator_Switching" part="TSR_1-2450" description="1A step-down regulator module, fixed 5V output voltage, 5-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement"/>
+      <value>OKI</value>
+      <libsource lib="MRDT_Devices" part="OKI" description="DC/DC Buck Converter"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="DiffGPS_Hardware.kicad_sch"/>
+      <property name="ki_description" value="DC/DC Buck Converter"/>
+      <property name="ki_keywords" value="OKI"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>bf565c81-50ed-46fb-99b6-5926d451cff2</tstamps>
+      <tstamps>d514bc1e-2097-4e07-b6b2-5cba19e3a2cd</tstamps>
     </comp>
   </components>
   <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Device" part="LED">
       <description>Light emitting diode</description>
       <docs>~</docs>
@@ -238,6 +305,18 @@
         <pin num="4" name="PV+" type="input"/>
       </pins>
     </libpart>
+    <libpart lib="MRDT_Devices" part="OKI">
+      <description>DC/DC Buck Converter</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OKI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vi" type="input"/>
+        <pin num="2" name="GND" type="output"/>
+        <pin num="3" name="Vo" type="output"/>
+      </pins>
+    </libpart>
     <libpart lib="MRDT_Shields" part="Raspberry_Pi">
       <fields>
         <field name="Reference">U</field>
@@ -297,43 +376,25 @@
         <field name="Datasheet">~</field>
       </fields>
     </libpart>
-    <libpart lib="Regulator_Switching" part="TSR_1-2450">
-      <description>1A step-down regulator module, fixed 5V output voltage, 5-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement</description>
-      <docs>http://www.tracopower.com/products/tsr1.pdf</docs>
-      <footprints>
-        <fp>Converter*DCDC*TRACO*TSR?1*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">TSR_1-2450</field>
-        <field name="Footprint">Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT</field>
-        <field name="Datasheet">http://www.tracopower.com/products/tsr1.pdf</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Vin" type="power_in"/>
-        <pin num="2" name="GND" type="power_in"/>
-        <pin num="3" name="Vout" type="power_out"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
     <library logical="Device">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
     </library>
     <library logical="MCU_Module">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/MCU_Module.kicad_sym</uri>
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//MCU_Module.kicad_sym</uri>
     </library>
     <library logical="MRDT_Connectors">
-      <uri>C:/Users/neaco/Downloads/MRDT_KiCAD_Libraries-master/MRDT_KiCAD_Libraries-master/Symbols/MRDT_Connectors.kicad_sym</uri>
+      <uri>/Users/vexas/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Connectors.kicad_sym</uri>
+    </library>
+    <library logical="MRDT_Devices">
+      <uri>/Users/vexas/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Devices.kicad_sym</uri>
     </library>
     <library logical="MRDT_Shields">
-      <uri>C:/Users/neaco/Downloads/MRDT_KiCAD_Libraries-master/MRDT_KiCAD_Libraries-master/Symbols/MRDT_Shields.kicad_sym</uri>
+      <uri>/Users/vexas/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Shields.kicad_sym</uri>
     </library>
     <library logical="Mechanical">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
-    </library>
-    <library logical="Regulator_Switching">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Switching.kicad_sym</uri>
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -344,118 +405,98 @@
     </net>
     <net code="2" name="+5V">
       <node ref="A1" pin="5" pinfunction="+5V" pintype="power_out"/>
+      <node ref="C2" pin="2" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="+5V" pintype="input"/>
       <node ref="U1" pin="4" pinfunction="+5V" pintype="input"/>
-      <node ref="U2" pin="3" pinfunction="Vout" pintype="power_out"/>
+      <node ref="U2" pin="3" pinfunction="Vo" pintype="output"/>
     </net>
-    <net code="3" name="+36V">
-      <node ref="Conn1" pin="2" pinfunction="V+Log" pintype="input"/>
-      <node ref="R1" pin="2" pintype="passive"/>
-      <node ref="U2" pin="1" pinfunction="Vin" pintype="power_in"/>
-    </net>
-    <net code="4" name="A0">
+    <net code="3" name="A0">
       <node ref="A1" pin="9" pinfunction="A0" pintype="bidirectional"/>
       <node ref="U1" pin="7" pinfunction="GP_4" pintype="input"/>
     </net>
-    <net code="5" name="A1">
+    <net code="4" name="A1">
       <node ref="A1" pin="10" pinfunction="A1" pintype="bidirectional"/>
       <node ref="U1" pin="29" pinfunction="GP_5" pintype="input"/>
     </net>
-    <net code="6" name="A2">
+    <net code="5" name="A2">
       <node ref="A1" pin="11" pinfunction="A2" pintype="bidirectional"/>
       <node ref="U1" pin="31" pinfunction="GP_6" pintype="input"/>
     </net>
-    <net code="7" name="A3">
+    <net code="6" name="A3">
       <node ref="A1" pin="12" pinfunction="A3" pintype="bidirectional"/>
       <node ref="U1" pin="32" pinfunction="GP_12" pintype="input"/>
     </net>
-    <net code="8" name="A4">
+    <net code="7" name="A4">
       <node ref="A1" pin="13" pinfunction="SDA/A4" pintype="bidirectional"/>
       <node ref="U1" pin="3" pinfunction="GP_2" pintype="input"/>
     </net>
-    <net code="9" name="A5">
+    <net code="8" name="A5">
       <node ref="A1" pin="14" pinfunction="SCL/A5" pintype="bidirectional"/>
       <node ref="U1" pin="5" pinfunction="GP_3" pintype="input"/>
     </net>
-    <net code="10" name="D0">
+    <net code="9" name="D0">
       <node ref="A1" pin="15" pinfunction="D0/RX" pintype="bidirectional"/>
       <node ref="U1" pin="10" pinfunction="GP_15" pintype="input"/>
     </net>
-    <net code="11" name="D1">
+    <net code="10" name="D1">
       <node ref="A1" pin="16" pinfunction="D1/TX" pintype="bidirectional"/>
       <node ref="U1" pin="8" pinfunction="GP_14" pintype="input"/>
     </net>
-    <net code="12" name="D2">
+    <net code="11" name="D2">
       <node ref="A1" pin="17" pinfunction="D2" pintype="bidirectional"/>
       <node ref="U1" pin="11" pinfunction="GP_17" pintype="input"/>
     </net>
-    <net code="13" name="D3">
+    <net code="12" name="D3">
       <node ref="A1" pin="18" pinfunction="D3" pintype="bidirectional"/>
       <node ref="U1" pin="12" pinfunction="GP_18" pintype="input"/>
     </net>
-    <net code="14" name="D4">
+    <net code="13" name="D4">
       <node ref="A1" pin="19" pinfunction="D4" pintype="bidirectional"/>
       <node ref="U1" pin="26" pinfunction="GP_7" pintype="input"/>
     </net>
-    <net code="15" name="D5">
+    <net code="14" name="D5">
       <node ref="A1" pin="20" pinfunction="D5" pintype="bidirectional"/>
       <node ref="U1" pin="13" pinfunction="GP_27" pintype="input"/>
     </net>
-    <net code="16" name="D6">
+    <net code="15" name="D6">
       <node ref="A1" pin="21" pinfunction="D6" pintype="bidirectional"/>
       <node ref="U1" pin="15" pinfunction="GP_22" pintype="input"/>
     </net>
-    <net code="17" name="D7">
+    <net code="16" name="D7">
       <node ref="A1" pin="22" pinfunction="D7" pintype="bidirectional"/>
       <node ref="U1" pin="16" pinfunction="GP_23" pintype="input"/>
     </net>
-    <net code="18" name="D8">
+    <net code="17" name="D8">
       <node ref="A1" pin="23" pinfunction="D8" pintype="bidirectional"/>
       <node ref="U1" pin="16" pinfunction="GP_24" pintype="input"/>
     </net>
-    <net code="19" name="D9">
+    <net code="18" name="D9">
       <node ref="A1" pin="24" pinfunction="D9" pintype="bidirectional"/>
       <node ref="U1" pin="22" pinfunction="GP_25" pintype="input"/>
     </net>
-    <net code="20" name="D10">
+    <net code="19" name="D10">
       <node ref="A1" pin="25" pinfunction="D10" pintype="bidirectional"/>
       <node ref="U1" pin="24" pinfunction="GP_8" pintype="input"/>
     </net>
-    <net code="21" name="D11">
+    <net code="20" name="D11">
       <node ref="A1" pin="26" pinfunction="D11" pintype="bidirectional"/>
       <node ref="U1" pin="19" pinfunction="GP_10" pintype="input"/>
     </net>
-    <net code="22" name="D12">
+    <net code="21" name="D12">
       <node ref="A1" pin="27" pinfunction="D12" pintype="bidirectional"/>
       <node ref="U1" pin="21" pinfunction="GP_9" pintype="input"/>
     </net>
-    <net code="23" name="D13">
+    <net code="22" name="D13">
       <node ref="A1" pin="28" pinfunction="D13" pintype="bidirectional"/>
       <node ref="U1" pin="23" pinfunction="GP_11" pintype="input"/>
     </net>
-    <net code="24" name="D14">
-      <node ref="U1" pin="33" pinfunction="GP_13" pintype="input"/>
-    </net>
-    <net code="25" name="D15">
-      <node ref="U1" pin="36" pinfunction="GP_16" pintype="input"/>
-    </net>
-    <net code="26" name="D16">
-      <node ref="U1" pin="35" pinfunction="GP_19" pintype="input"/>
-    </net>
-    <net code="27" name="D17">
-      <node ref="U1" pin="38" pinfunction="GP_20" pintype="input"/>
-    </net>
-    <net code="28" name="D18">
-      <node ref="U1" pin="40" pinfunction="GP_21" pintype="input"/>
-    </net>
-    <net code="29" name="D19">
-      <node ref="U1" pin="37" pinfunction="GP_26" pintype="input"/>
-    </net>
-    <net code="30" name="GND">
+    <net code="23" name="GND">
       <node ref="A1" pin="29" pinfunction="GND" pintype="power_in"/>
       <node ref="A1" pin="6" pinfunction="GND" pintype="power_in"/>
       <node ref="A1" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
       <node ref="Conn1" pin="1" pinfunction="GND" pintype="input"/>
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
@@ -468,49 +509,73 @@
       <node ref="U1" pin="39" pinfunction="GND" pintype="input"/>
       <node ref="U1" pin="6" pinfunction="GND" pintype="input"/>
       <node ref="U1" pin="9" pinfunction="GND" pintype="input"/>
-      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="output"/>
     </net>
-    <net code="35" name="Net-(D1-Pad2)">
+    <net code="24" name="Net-(D1-A)">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
     </net>
-    <net code="36" name="Net-(D2-Pad2)">
+    <net code="25" name="Net-(D2-A)">
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
     </net>
-    <net code="37" name="Net-(D3-Pad2)">
+    <net code="26" name="Net-(D3-A)">
       <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
     </net>
-    <net code="38" name="unconnected-(A1-Pad1)">
-      <node ref="A1" pin="1" pinfunction="NC" pintype="no_connect"/>
+    <net code="27" name="VCC">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="Conn1" pin="4" pinfunction="PV+" pintype="input"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="Vi" pintype="input"/>
     </net>
-    <net code="39" name="unconnected-(A1-Pad3)">
-      <node ref="A1" pin="3" pinfunction="~{RESET}" pintype="input+no_connect"/>
-    </net>
-    <net code="40" name="unconnected-(A1-Pad4)">
+    <net code="28" name="unconnected-(A1-3V3-Pad4)">
       <node ref="A1" pin="4" pinfunction="3V3" pintype="power_out+no_connect"/>
     </net>
-    <net code="41" name="unconnected-(A1-Pad8)">
-      <node ref="A1" pin="8" pinfunction="VIN" pintype="power_in+no_connect"/>
-    </net>
-    <net code="42" name="unconnected-(A1-Pad30)">
+    <net code="29" name="unconnected-(A1-AREF-Pad30)">
       <node ref="A1" pin="30" pinfunction="AREF" pintype="input+no_connect"/>
     </net>
-    <net code="43" name="unconnected-(A1-Pad31)">
-      <node ref="A1" pin="31" pinfunction="SDA/A4" pintype="bidirectional+no_connect"/>
+    <net code="30" name="unconnected-(A1-NC-Pad1)">
+      <node ref="A1" pin="1" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="44" name="unconnected-(A1-Pad32)">
+    <net code="31" name="unconnected-(A1-SCL{slash}A5-Pad32)">
       <node ref="A1" pin="32" pinfunction="SCL/A5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="45" name="unconnected-(U1-Pad17)">
+    <net code="32" name="unconnected-(A1-SDA{slash}A4-Pad31)">
+      <node ref="A1" pin="31" pinfunction="SDA/A4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(A1-VIN-Pad8)">
+      <node ref="A1" pin="8" pinfunction="VIN" pintype="power_in+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(A1-~{RESET}-Pad3)">
+      <node ref="A1" pin="3" pinfunction="~{RESET}" pintype="input+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U1-+3V3-Pad17)">
       <node ref="U1" pin="17" pinfunction="+3V3" pintype="input+no_connect"/>
     </net>
-    <net code="46" name="unconnected-(U1-Pad27)">
+    <net code="36" name="unconnected-(U1-GP_0-Pad27)">
       <node ref="U1" pin="27" pinfunction="GP_0" pintype="input+no_connect"/>
     </net>
-    <net code="47" name="unconnected-(U1-Pad28)">
+    <net code="37" name="unconnected-(U1-GP_1-Pad28)">
       <node ref="U1" pin="28" pinfunction="GP_1" pintype="input+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U1-GP_13-Pad33)">
+      <node ref="U1" pin="33" pinfunction="GP_13" pintype="input+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U1-GP_16-Pad36)">
+      <node ref="U1" pin="36" pinfunction="GP_16" pintype="input+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U1-GP_19-Pad35)">
+      <node ref="U1" pin="35" pinfunction="GP_19" pintype="input+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U1-GP_20-Pad38)">
+      <node ref="U1" pin="38" pinfunction="GP_20" pintype="input+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U1-GP_21-Pad40)">
+      <node ref="U1" pin="40" pinfunction="GP_21" pintype="input+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U1-GP_26-Pad37)">
+      <node ref="U1" pin="37" pinfunction="GP_26" pintype="input+no_connect"/>
     </net>
   </nets>
 </export>
