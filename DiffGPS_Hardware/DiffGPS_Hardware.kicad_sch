@@ -1920,11 +1920,11 @@
     (property "Datasheet" "" (at 15.24 54.61 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 0044eea5-a1c0-4fba-b22c-98b754c4734f))
+    (pin "1" (uuid 0044eea5-a1c0-4fba-b22c-98b754c47350))
     (pin "2" (uuid 45742e31-6504-4240-a25e-63c7e81dfbf7))
     (pin "3" (uuid a50bb0c8-5842-4a7f-97cb-d5eaec1cfa16))
     (pin "4" (uuid de44a20b-6fd0-419a-b4cd-240fde8ef240))
-    (pin "1" (uuid 0044eea5-a1c0-4fba-b22c-98b754c4734f))
+    (pin "1" (uuid 0044eea5-a1c0-4fba-b22c-98b754c47350))
     (instances
       (project "DiffGPS_Hardware"
         (path "/515a2fac-4908-4fa2-9eb8-3ec1d51d96fc"
@@ -1974,11 +1974,11 @@
     (property "Datasheet" "" (at 15.24 38.1 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid d5ac9267-cac1-4888-912f-6a73031a12f4))
+    (pin "1" (uuid d5ac9267-cac1-4888-912f-6a73031a12f5))
     (pin "2" (uuid d60a7590-8a66-41e8-ab1a-e51e230c0c14))
     (pin "3" (uuid 1bdae9fb-e7d9-4455-82b6-fa6aba05f35c))
     (pin "4" (uuid ac9793e0-467b-4da9-9dbb-0c8919a44028))
-    (pin "1" (uuid d5ac9267-cac1-4888-912f-6a73031a12f4))
+    (pin "1" (uuid d5ac9267-cac1-4888-912f-6a73031a12f5))
     (instances
       (project "DiffGPS_Hardware"
         (path "/515a2fac-4908-4fa2-9eb8-3ec1d51d96fc"
@@ -2091,8 +2091,8 @@
     (pin "13" (uuid 6d902b53-25b1-45ae-a0f8-5c6eacf4edb9))
     (pin "14" (uuid 60beaa4b-904d-475a-86cf-430ae580ef8e))
     (pin "15" (uuid 7d74db06-e53e-46f7-be64-f7f0aee8cad3))
-    (pin "16" (uuid f49d2a28-c3b6-418c-ac3d-a466969b9287))
-    (pin "16" (uuid f49d2a28-c3b6-418c-ac3d-a466969b9287))
+    (pin "16" (uuid f49d2a28-c3b6-418c-ac3d-a466969b9288))
+    (pin "16" (uuid f49d2a28-c3b6-418c-ac3d-a466969b9288))
     (pin "17" (uuid 479e416e-929d-4945-96be-1f9e179eef4f))
     (pin "19" (uuid 4488583e-4609-4d52-8bab-f12f6a706a89))
     (pin "2" (uuid 613a2a5b-01df-43eb-8230-39ab37517b5b))
