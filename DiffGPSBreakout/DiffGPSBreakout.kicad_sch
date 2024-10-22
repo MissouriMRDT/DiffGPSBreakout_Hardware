@@ -2723,7 +2723,15 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "U2"
+				(at 0.635 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2731,24 +2739,7 @@
 					)
 				)
 			)
-			(property "Value" "SHHD003A0A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SHHD003A04A41:SHHD003A0A-SRZ"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.digikey.com/en/products/detail/abb-power-conversion/SHHD003A0A41-SRZ/3993519"
+			(property "Footprint" "PKE3311PI(P)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2757,7 +2748,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "https://flexpowermodules.com/resources/fpm-techspec-pke3000"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "5V, 6A / 30W"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6304,7 +6304,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SHHD003A04A41:SHHD003A0A-SRZ"
+		(property "Footprint" "PKE3311PI(P)"
 			(at 125.73 54.61 0)
 			(effects
 				(font
@@ -6313,7 +6313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/abb-power-conversion/SHHD003A0A41-SRZ/3993519"
+		(property "Datasheet" "https://flexpowermodules.com/resources/fpm-techspec-pke3000"
 			(at 125.73 54.61 0)
 			(effects
 				(font
@@ -6322,7 +6322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5V, 6A / 30W"
 			(at 125.73 54.61 0)
 			(effects
 				(font
