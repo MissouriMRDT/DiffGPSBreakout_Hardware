@@ -7100,8 +7100,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3k"
-			(at 68.58 49.53 90)
+		(property "Value" "1.5k"
+			(at 70.104 50.546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7366,10 +7366,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e051f1b9-814d-42c2-9207-5405ad57ba77")
 		(property "Reference" "R2"
-			(at 156.718 46.1553 0)
+			(at 156.972 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7377,8 +7376,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "300"
-			(at 156.718 48.6922 0)
+		(property "Value" "220"
+			(at 156.972 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
